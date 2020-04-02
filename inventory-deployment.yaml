@@ -13,6 +13,9 @@ metadata:
     chart: inventory-0.6.0
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: "inventory"   
   template:
     metadata:
       labels:
