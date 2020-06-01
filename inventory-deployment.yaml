@@ -59,7 +59,7 @@ spec:
               key: mysql-password
       containers:
       - name: "inventory"
-        image: "us.icr.io/devops-gse-poc/bluecopute-inventory:1.0.0"
+        image: "ibmcase/bluecompute-inventory:0.6.0"
         imagePullPolicy: "Always"
         volumeMounts:
         - mountPath: /spring-tmp
